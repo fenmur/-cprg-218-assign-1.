@@ -1,0 +1,11 @@
+@import url(reset.css);
+@import url(global.css);
+@import url(fonts.css);
+
+.card {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
+    width: 100%;
+    margin-bottom: 20px;
+  }
