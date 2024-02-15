@@ -2,6 +2,9 @@
 @import url(global.css);
 @import url(fonts.css);
 
+
+/*Styling the cards */
+
 .card {
     background-color: #fff;
     border-radius: 0.25rem;
@@ -10,7 +13,36 @@
     margin-bottom: 20px;
   }
 
+/*Mobile Layout */
+
 .card-container {
     display:flex;
     flex-wrap: wrap;
 }
+
+/* Tablet Layout */
+
+@media (min-width: 768px) {
+    .card {
+      width: calc(50% - 20px);
+      margin-right: 20px;
+    }
+  
+/* Last card with full width */
+    .card:last-child {
+      width: 100%;
+      margin-right: 0
+    }
+  }
+
+/*Desktop layout */
+
+@media (min-width: 1200px) {
+    .card {
+      width: calc(33.333% - 20px);
+      margin-right: 20px;
+    }
+    .card:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
