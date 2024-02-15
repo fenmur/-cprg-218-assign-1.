@@ -3,15 +3,6 @@
 @import url(fonts.css);
 
 
-/*Styling the cards */
-
-.card {
-    background-color: #fff;
-    border-radius: 0.25rem;
-    box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
-    width: 100%;
-    margin-bottom: 20px;
-  }
 
 /*Mobile Layout */
 
@@ -47,13 +38,33 @@
     }
   }
 
+
+ /*Card styles */
+
+.card {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
+  width: 24rem;
+}
+
+img {
+  border-bottom: 0.25rem solid #fc0;
+  border-radius: 0.25rem 0.25rem 0 0;
+  height: auto;
+  width: 100%;
+
+}
+
   /* Clear margin for every 3rd card */
 
   .card:nth-child(3n) {
     margin-right: 0;
   }
 
+
 /* Added Fonts */
+
 body {
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
