@@ -46,3 +46,9 @@
       margin-right: 0;
     }
   }
+
+  /* Clear margin for every 3rd card */
+  
+  .card:nth-child(3n) {
+    margin-right: 0;
+  }
